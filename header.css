@@ -1,0 +1,92 @@
+/* ===== HEADER GENERAL ===== */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 1px;
+}
+
+/* ===== LOGO ===== */
+.header .logo img {
+  height: 90px;
+}
+
+/* ===== MENÚ ===== */
+.header .menu ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header .menu a {
+  color: var(--blanco);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.header .menu a:hover {
+  color: var(--azul-principal);
+}
+
+/* ===== ÍCONOS (lupa + redes) ===== */
+.header .iconos-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header .iconos-header i {
+  font-size: 1.2rem;
+  color: var(--blanco);
+  transition: color 0.3s ease;
+}
+
+.header .iconos-header i:hover {
+  color: var(--azul-oscuro);
+}
+
+/* ===== MENÚ HAMBURGUESA ===== */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  color: var(--blanco);
+  cursor: pointer;
+}
+
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    z-index: 1001;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    background-color: #111;
+    padding: 1rem 0;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .menu.active {
+    display: block;
+  }
+}
+
+
+
+
+

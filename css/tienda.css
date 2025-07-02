@@ -1,0 +1,48 @@
+.tienda {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.tienda h2 {
+  margin-bottom: 2rem;
+}
+
+.productos-swiper {
+  padding: 1rem 0;
+}
+
+.producto {
+  background-color: var(--gris-suave);
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+}
+
+.producto img {
+  max-height: 160px;
+  object-fit: contain;
+  margin: 0 auto 0.5rem;
+}
+
+.producto h4 {
+  font-size: 1rem;
+  color: var(--azul-oscuro);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .producto img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .producto img {
+    max-height: 120px;
+  }
+}

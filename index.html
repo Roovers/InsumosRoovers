@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROOVERS INSUMOS</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/quienes-somos.css">
+    <link rel="stylesheet" href="./css/tienda.css">
+    <link rel="stylesheet" href="./css/clientes.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <img src="./img/original.png" alt="SDBE Logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="iconos-header">
+            <i class="fas fa-search"></i>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </header>
+
+    <!-- SLIDER PRINCIPAL -->
+    <section id="inicio" class="slider-principal swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/slide1.webp" alt="Imagen 1"></div>
+            <div class="swiper-slide"><img src="./img/slide2.webp" alt="Imagen 2"></div>
+            <div class="swiper-slide"><img src="./img/slide3.webp" alt="Imagen 3"></div>
+            <div class="swiper-slide"><img src="./img/slide4.webp" alt="Imagen 4"></div>
+        </div>
+
+        <!-- Paginación y navegación -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </section>
+
+
+    <!-- QUIÉNES SOMOS -->
+    <section class="quienes-somos">
+        <div class="container">
+            <div class="contenido">
+                <div class="texto">
+                    <h2>Quiénes Somos</h2>
+                    <p>
+                        Somos una empresa líder, con sede en la Ciudad de Buenos Aires, que desde el año 2004 se ha
+                        consolidado como un referente en el rubro de la tecnología. Nos especializamos en la
+                        comercialización de una amplia gama de insumos relacionados con la informática, el gaming y la
+                        librería comercial, ofreciendo productos de alta calidad que responden a las necesidades tanto
+                        del usuario particular como del entorno corporativo.
+
+                        A lo largo de estos más de 20 años de trayectoria, hemos construido una sólida reputación
+                        gracias a nuestro compromiso con la excelencia y a una atención personalizada que busca superar
+                        las expectativas de cada cliente.
+
+                        Nuestra misión es continuar acompañando a nuestros clientes en la evolución digital, ofreciendo
+                        productos innovadores, precios competitivos y un servicio postventa que garantiza confianza y
+                        respaldo.
+                    </p>
+                </div>
+                <div class="imagen">
+                    <img src="./img/quienes-somos.png" alt="Imagen institucional">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="tienda" class="tienda">
+        <div class="container">
+            <h2>Productos Destacados</h2>
+
+            <div class="swiper productos-swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide producto">
+                        <img src="./img/p1.png" alt="Producto 1">
+                        <h4>Mouse Gamer RGB</h4>
+                    </div>
+
+                    <div class="swiper-slide producto">
+                        <img src="./img/p2.png" alt="Producto 2">
+                        <h4>Teclado Mecánico</h4>
+                    </div>
+
+                    <div class="swiper-slide producto">
+                        <img src="./img/p3.png" alt="Producto 3">
+                        <h4>Auriculares Inalámbricos</h4>
+                    </div>
+
+                    <div class="swiper-slide producto">
+                        <img src="./img/p4.png" alt="Producto 3">
+                        <h4>Auriculares Inalámbricos</h4>
+                    </div>
+
+
+                    <div class="swiper-slide producto">
+                        <img src="./img/p5.png" alt="Producto 3">
+                        <h4>Auriculares Inalámbricos</h4>
+                    </div>
+
+                    <!-- Agregá más productos acá -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONTACTO -->
+<section id="contacto" class="contacto">
+  <div class="container">
+    <form class="formulario">
+      <h2>Contacto</h2>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="text" placeholder="Asunto">
+      <input type="tel" placeholder="Móvil / Teléfono">
+      <textarea placeholder="Mensaje (opcional)" rows="5"></textarea>
+      <button type="submit">ENVIAR</button>
+    </form>
+  </div>
+</section>
+
+
+    <!-- LOGOS DE CLIENTES -->
+<section class="clientes">
+  <h3>Estas empresas confían en nosotros</h3>
+  <div class="logos-marquesina">
+    <div class="logos-track">
+      <img src="img/xbox-3.svg" alt="Logo 1">
+      <img src="img/rockstar-games.svg" alt="Logo 2">
+      <img src="img/pure-storage.svg" alt="Logo 3">
+      <img src="img/nodecraft-1.svg" alt="Logo 4">
+      <img src="img/nintendo-2.svg" alt="Logo 5">
+      <img src="img/myrabel-de-sapiranga-rs.svg" alt="Logo 6">
+      <img src="img/hp-proliant-servers.svg" alt="Logo 7">
+      <img src="img/cloud-9.svg" alt="Logo 8">
+      <img src="img/biotek-31226.svg" alt="Logo 9">
+      <!-- repetir -->
+      <img src="img/xbox-3.svg" alt="Logo 1">
+      <img src="img/rockstar-games.svg" alt="Logo 2">
+      <img src="img/pure-storage.svg" alt="Logo 3">
+      <img src="img/nodecraft-1.svg" alt="Logo 4">
+      <img src="img/nintendo-2.svg" alt="Logo 5">
+      <img src="img/myrabel-de-sapiranga-rs.svg" alt="Logo 6">
+      <img src="img/hp-proliant-servers.svg" alt="Logo 7">
+      <img src="img/cloud-9.svg" alt="Logo 8">
+      <img src="img/biotek-31226.svg" alt="Logo 9">
+    </div>
+  </div>
+</section>
+
+
+    <!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <!-- MAPA -->
+    <div class="footer-mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.123078253889!2d-58.48644702427862!3d-34.65114006057944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4879c44cb9%3A0xf2aa8422cb38b1f6!2sManuel%20Ricardo%20Trelles%202181!5e0!3m2!1ses-419!2sar!4v1685555555555!5m2!1ses-419!2sar"
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- LOGO -->
+    <div class="footer-logo">
+      <img src="./img/original.png"alt="Logo SDBE">
+    </div>
+
+    <!-- INFO + REDES -->
+    <div class="footer-info">
+      <p><i class="fas fa-map-marker-alt"></i> Manuel Ricardo Trelles 2181</p>
+      <p><i class="fas fa-envelope"></i> sdbesas@gmail.com</p>
+      <p><i class="fas fa-phone"></i> Tel: 4582-1775</p>
+      <p><i class="fas fa-clock"></i> Lunes a Viernes de 08:00 a 17:30</p>
+
+      <div class="footer-redes">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- DERECHOS -->
+<div class="footer-copy">
+  <p>© Todos los derechos reservados Roovers Insumos</p>
+</div>
+
+    <script src="./javascript/slider.js"></script>
+    <script src="./javascript/tienda.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

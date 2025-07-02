@@ -1,0 +1,86 @@
+/* ====== RESET GENERAL ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* ====== COLORES BASE ====== */
+:root {
+  --azul-principal: #0074c1;
+  --azul-oscuro: #003e70;
+  --gris-suave: #f5f5f5;
+  --negro: #222;
+  --blanco: #fff;
+}
+
+/* ====== ENLACES ====== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ====== UTILITARIOS ====== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--azul-principal);
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ====== BOTÓN GENERAL ====== */
+button,
+input[type="submit"] {
+  background-color: var(--azul-principal);
+  color: var(--blanco);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: var(--azul-oscuro);
+}
+
+/* ====== RESPONSIVE BREAKPOINTS ====== */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}

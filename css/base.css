@@ -84,3 +84,26 @@ input[type="submit"]:hover {
     font-size: 14px;
   }
 }
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2rem;
+  }
+
+  button,
+  input[type="submit"] {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+

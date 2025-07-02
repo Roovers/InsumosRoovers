@@ -77,3 +77,18 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 576px) {
+  .footer-logo img {
+    max-height: 90px;
+  }
+
+  .footer-info p {
+    font-size: 0.9rem;
+  }
+
+  .footer-redes a {
+    font-size: 1.1rem;
+  }
+}
+

@@ -52,15 +52,13 @@
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .header {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .header .menu ul {
     flex-direction: column;
-    gap: 0.5rem;
+    align-items: center;
   }
 
   .header .iconos-header {
@@ -68,3 +66,4 @@
     flex-wrap: wrap;
   }
 }
+
